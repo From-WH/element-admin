@@ -66,7 +66,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     },
     "validate-commit-msg": {
-      "types": "conventional-commit-types"
+      "commit-msg": "./validate-commit-msg.js"
     }
   }
 }
