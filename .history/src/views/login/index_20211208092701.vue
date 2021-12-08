@@ -170,7 +170,7 @@ $cursor: #fff;
     color: #454545;
   }
   .test{
-    color: #000;
+    
   }
 }
 </style>

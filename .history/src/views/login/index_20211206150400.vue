@@ -169,9 +169,6 @@ $cursor: #fff;
     border-radius: 5px;
     color: #454545;
   }
-  .test{
-    color: #000;
-  }
 }
 </style>
 
