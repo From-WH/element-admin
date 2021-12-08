@@ -11,8 +11,7 @@
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
     "lint": "eslint --ext .js,.vue src",
     "test:unit": "jest --clearCache && vue-cli-service test:unit",
-    "test:ci": "npm run lint && npm run test:unit",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "test:ci": "npm run lint && npm run test:unit"
   },
   "dependencies": {
     "axios": "0.18.1",
@@ -40,7 +39,6 @@
     "chalk": "2.4.2",
     "commitlint": "^15.0.0",
     "connect": "3.6.6",
-    "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "6.7.2",
     "eslint-plugin-vue": "6.2.2",
@@ -74,6 +72,6 @@
       "hooks": {
         "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
       }
-    }
+    },
   }
 }
